@@ -1,4 +1,5 @@
 // Question source: https://codereview.stackexchange.com/questions/183204/multi-field-sorting
+// Original code author: https://github.com/benaston
 
 const flatten = objectToFlatten => Object
   .values(objectToFlatten)
