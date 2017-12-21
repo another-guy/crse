@@ -1,0 +1,10 @@
+node_modules/
+
+src/*.js
+
+bin/
+dist/
+
+coverage/
+test/*.js
+test/report.html
