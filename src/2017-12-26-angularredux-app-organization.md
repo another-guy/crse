@@ -41,7 +41,7 @@ I think, this disconnect is non-Redux idiomatic. I may be wrong.
 
 As soon as you use `.then()` or any other non-command/reducer code to express relationship between entities in your application, you get "broken" store in my understanding. For example, it becomes impossible to track the `CONFIG_LOADED` command. It simply does not exist. Similarly and more importantly, it is impossible to replay it if you wanted to debug it. It is also hard to imagine how to unit test it.
 
-I understand that when everything is done in a clean redux/Event Store way, it may be hard to track what happens then. I'm still looking for a good way to visualize the flow.
+I understand that when everything is done in a clean redux/Event Store way, it may be hard to track what happens when. I'm still looking for a good way to visualize the flow.
 
 Coming back to **Is this a reasonable time to step outside of the norm?** question. I think, it's your call. On one hand, it's probably uncool to "blindly" follow the pattern. On another hand, redux is done the way it's done for a reason. And as soon as you diverge from it, you establish a precedent that may then be used as an excuse to not do something else the "right" way. I prefer to stay away from such, but your code is your code.
 
